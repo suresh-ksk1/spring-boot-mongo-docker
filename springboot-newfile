@@ -51,6 +51,7 @@ spec:
        name: mongodbpod
        labels:
          app: mongodb
+     spec:
        containers:
        - name: mongodbcontainer
          image: mongo
